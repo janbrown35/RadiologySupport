@@ -26,13 +26,21 @@ This file contains the folders of code for the development of a mobile web appli
 REQUIREMENTS
 -----------------
 This project requires:
+
 An azure virtual server
+
 phpMyadmin to connect to server
+
 Atom or some other HTML editor: https://atom.io/
+
 Filezilla to transfer files: https://filezilla-project.org/download.php?type=server
+
 A browser to display the different modules
+
 DevTools or similar developer tools to make changes and test any changes
+
 The following modules and their files of code:
+
 
 Module 1:Configure a Development Environment
 http://janmountain.centralus.cloudapp.azure.com/module1/
@@ -52,11 +60,17 @@ http://janmountain.centralus.cloudapp.azure.com/mod5/
 Installation
 -------------------
 Create an account in Azure and then create a storage account.
+
 Create and configure a LAMP virtual server.
+
 Connect to the virtual server with SSH such as Putty.
+
 Create a user account using phpMyAdmin with root and password from the VM server logs.
+
 Create any new tables using phpMyAdmin or Atom software
+
 Download Atom software: https://atom.io/
+
 Download Filezilla: https://filezilla-project.org/download.php?type=server
 
 
