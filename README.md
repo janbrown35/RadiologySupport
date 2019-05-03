@@ -100,10 +100,9 @@ TROUBLESHOOTING
 * If database not connecting double check code
 * If website not displaying correctly use DevTools to test and modify elements and CSS stylesheet
 
-LICENSE
+License
 --------
-* Not Applicable
-
+* This project is licensed under the terms of MIT license
 
 
 
