@@ -59,19 +59,19 @@ http://janmountain.centralus.cloudapp.azure.com/mod5/
  
 Installation
 -------------------
-Create an account in Azure and then create a storage account.
+*Create an account in Azure and then create a storage account.
 
-Create and configure a LAMP virtual server.
+*Create and configure a LAMP virtual server.
 
-Connect to the virtual server with SSH such as Putty.
+*Connect to the virtual server with SSH such as Putty.
 
-Create a user account using phpMyAdmin with root and password from the VM server logs.
+*Create a user account using phpMyAdmin with root and password from the VM server logs.
 
-Create any new tables using phpMyAdmin or Atom software
+*Create any new tables using phpMyAdmin or Atom software
 
-Download Atom software: https://atom.io/
+*Download Atom software: https://atom.io/
 
-Download Filezilla: https://filezilla-project.org/download.php?type=server
+*Download Filezilla: https://filezilla-project.org/download.php?type=server
 
 
 
