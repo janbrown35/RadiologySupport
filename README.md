@@ -14,9 +14,7 @@ CONTENTS OF THIS FILE
 
 *Troubleshooting
 
-*FAQ
 
-*Maintainers
 
 
 INTRODUCTION
@@ -27,19 +25,19 @@ REQUIREMENTS
 -----------------
 This project requires:
 
-An azure virtual server
+* An Azure virtual server
 
-phpMyadmin to connect to server
+* phpMyadmin to connect to server
 
-Atom or some other HTML editor: https://atom.io/
+* Atom or some other HTML editor: https://atom.io/
 
-Filezilla to transfer files: https://filezilla-project.org/download.php?type=server
+* Filezilla to transfer files: https://filezilla-project.org/download.php?type=server
 
-A browser to display the different modules
+* A browser to display the different modules
 
-DevTools or similar developer tools to make changes and test any changes
+* DevTools or similar developer tools to make changes and test any changes
 
-The following modules and their files of code:
+* The following modules and their files of code:
 
 
 Module 1:Configure a Development Environment
@@ -59,19 +57,48 @@ http://janmountain.centralus.cloudapp.azure.com/mod5/
  
 Installation
 -------------------
-*Create an account in Azure and then create a storage account.
+* Create an account in Azure and then create a storage account.
 
-*Create and configure a LAMP virtual server.
+* Create and configure a LAMP virtual server.
 
-*Connect to the virtual server with SSH such as Putty.
+* Connect to the virtual server with SSH such as Putty.
 
-*Create a user account using phpMyAdmin with root and password from the VM server logs.
+* Create a user account using phpMyAdmin with root and password from the VM server logs.
 
-*Create any new tables using phpMyAdmin or Atom software
+* Create any new tables using phpMyAdmin or Atom software
 
-*Download Atom software: https://atom.io/
+* Download Atom software: https://atom.io/
 
-*Download Filezilla: https://filezilla-project.org/download.php?type=server
+* Download Filezilla: https://filezilla-project.org/download.php?type=server
+
+Configuration
+----------------
+* Configure user permission on the Azure server
+  -Use phpMyAdmin to create user
+  -Use phpMyAdmin to create database and tables 
+ * Connect database to website using php file: sample code change to fit server created and user created
+<?php
+            $servername = "localhost";
+            $username = "janedoe";
+            $password = "12345";
+            $dbname = "mysampledb";
+
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            }
+ ?>
+* Configure putty to connect to server
+* Configure Filezilla to connect to server to transfer files
+
+
+Troubleshooting
+------------------------------------------------
+* If database not connecting double check code
+* If website not displaying correctly use DevTools to test and modify elements and CSS stylesheet
+
 
 
 
