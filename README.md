@@ -88,12 +88,11 @@ CONFIGURATION
 
 USAGE
 -------
-Once you have done the installation you will be able to display the website.  Radiology Support professionals can connect and 
-use the website.
+Once you have done the installation, the website will be displayed.  Radiology Support professionals can connect to the site.  Here they can join in on forums, ask questions, and find answers to radiology support issues. There are also events for Radiology Support professionals to attend. They will be able to find resources for continuing education.  The student page shows potential Radiology Support candidates what they should be learning and what courses to take to help them get into the Radiology Support profession.
 
 CONTRIBUTORS
 -------------
-* none
+* Jan Mountain
 
 
 TROUBLESHOOTING
