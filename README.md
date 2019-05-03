@@ -1,14 +1,23 @@
 RADIOLOGY SUPPORT UNITE: Course project for Fundamentals of Mobile Web Application Development
 ---------------------------------------------
 CONTENTS OF THIS FILE
+
 *Introduction
+
 *Requirements
+
 *Recommend modules
+
 *Installation
+
 *Configuration
+
 *Troubleshooting
+
 *FAQ
+
 *Maintainers
+
 
 INTRODUCTION
 --------------
