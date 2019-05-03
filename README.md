@@ -12,7 +12,13 @@ CONTENTS OF THIS FILE
 
 *Configuration
 
+*Usage
+
+*Contributors
+
 *Troubleshooting
+
+*License
 
 
 
@@ -55,7 +61,7 @@ http://janmountain.centralus.cloudapp.azure.com/mod4/
 Module 5: Testing and Developing
 http://janmountain.centralus.cloudapp.azure.com/mod5/
  
-Installation
+INSTALLATION
 -------------------
 * Create an account in Azure and then create a storage account.
 
@@ -71,7 +77,7 @@ Installation
 
 * Download Filezilla: https://filezilla-project.org/download.php?type=server
 
-Configuration
+CONFIGURATION
 ----------------
 * Configure user permission on the Azure server
   -Use phpMyAdmin to create user
@@ -93,11 +99,24 @@ Configuration
 * Configure putty to connect to server
 * Configure Filezilla to connect to server to transfer files
 
+USAGE
+-------
+Once you have done the installation you will be able to display the website.  Radiology Support professionals can connect and 
+use the website.
 
-Troubleshooting
+CONTRIBUTORS
+-------------
+* none
+
+
+TROUBLESHOOTING
 ------------------------------------------------
 * If database not connecting double check code
 * If website not displaying correctly use DevTools to test and modify elements and CSS stylesheet
+
+LICENSE
+--------
+* Not Applicable
 
 
 
