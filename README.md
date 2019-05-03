@@ -82,20 +82,7 @@ CONFIGURATION
 * Configure user permission on the Azure server
   -Use phpMyAdmin to create user
   -Use phpMyAdmin to create database and tables 
- * Connect database to website using php file: sample code change to fit server created and user created
-<?php
-            $servername = "localhost";
-            $username = "janedoe";
-            $password = "12345";
-            $dbname = "mysampledb";
-
-            // Create connection
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            // Check connection
-            if ($conn->connect_error) {
-                die("Connection failed: " . $conn->connect_error);
-            }
- ?>
+ * Connect database to website using php file.
 * Configure putty to connect to server
 * Configure Filezilla to connect to server to transfer files
 
