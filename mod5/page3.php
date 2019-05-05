@@ -29,8 +29,7 @@ figure {float:left; margin:15 20px 0 0;}
             <li class="btn"><a href="index.html">Home Page</a></li>
              <li class="btn"><a href="page2.html">Tips Blogs and Forums</a></li>
             <li class="btn"><a href="page4.html">Student</a></li>
-            <li class="btn">Search</li>
-            <li class="btn">Contact Us</li>
+            <li class="btn"><a href="contacts.html">Contacts</li>
             </ul>
         </nav>
       </div>
