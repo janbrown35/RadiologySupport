@@ -4,6 +4,8 @@ CONTENTS OF THIS FILE
 
 *Introduction
 
+*Description
+
 *Requirements
 
 *Installation
@@ -24,6 +26,10 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 --------------
 This file contains the folders of code for the development of a mobile web application.  It begins with the making of a first homepage in Module1 to an almost fully developed website called “Radiology Support” in mod5. The Radiology Support Unite project, modules 2 through 5, contain the code as the website built for Radiology Support professionals who support Radiology software, hardware, and networking.  The website contains pages for tips and forums on what Radiology Support professionals to use on the job. It also contains information on upcoming events for Radiology Support professionals as well as how to obtain continuing education.  A student page is included for students looking to pursue a career in Radiology Support. Here is a link to these modules: http://janmountain.centralus.cloudapp.azure.com/
+
+DISCRIPTION
+-------------
+This is a website built for the target audience of Radiology Support.  The home page introduces the site and what it is about (uniting radiology support professionals).  The second page is a page for people to ask questions, write blogs, and get tips on common issues in found in Radiology support with hardware and software. The third page is for official organizations to promote events for Radiology Support professionals. Radiology support professionals will also find resources for continuing education credits or become certified in Radiology support.  The fourth page is for students.  Students looking to get into Radiology support. There will be links for professional organizations, colleges, and tips for courses to take.  There will also be an area to ask questions.
 
 REQUIREMENTS
 -----------------
