@@ -6,8 +6,6 @@ CONTENTS OF THIS FILE
 
 *Requirements
 
-*Recommend modules
-
 *Installation
 
 *Configuration
